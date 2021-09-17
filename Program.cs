@@ -12,11 +12,10 @@ namespace IntroApplication
         {
             Console.WriteLine("Hello World");
 
-            Console.WriteLine("    /|");
-            Console.WriteLine("   / |");
-            Console.WriteLine("  /  |");
-            Console.WriteLine(" /   |");
-            Console.WriteLine("/    |");
+            Console.WriteLine("There once was a man named John.");
+            Console.WriteLine("He was 35 years old.");
+            Console.WriteLine("He really liked the name John.");
+            Console.WriteLine("But he did not like being 35 years old.");
 
             Console.ReadLine();
         }
