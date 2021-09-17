@@ -11,7 +11,8 @@ namespace IntroApplication
         static void Main(string[] args)
         {
             string characterName = "John";
-            
+            int characterAge = 35;
+
             Console.WriteLine("Hello World");
 
             Console.WriteLine("There once was a man named John.");
