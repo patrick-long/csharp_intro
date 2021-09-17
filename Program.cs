@@ -10,6 +10,8 @@ namespace IntroApplication
     {
         static void Main(string[] args)
         {
+            string characterName = "John";
+            
             Console.WriteLine("Hello World");
 
             Console.WriteLine("There once was a man named John.");
