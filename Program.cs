@@ -26,6 +26,8 @@ namespace IntroApplication
             // Working with data types in C#
             string phrase = "C# is new to me";
             char grade = 'A';
+
+            int myNumber = 9;
         }
     }
 }
