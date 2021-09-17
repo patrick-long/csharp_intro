@@ -28,6 +28,7 @@ namespace IntroApplication
             char grade = 'A';
 
             int myNumber = 9;
+            double gpa = 3.9;
         }
     }
 }
