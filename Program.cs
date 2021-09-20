@@ -29,6 +29,8 @@ namespace IntroApplication
 
             int myNumber = 9;
             double gpa = 3.9;
+
+            bool isMale = true;
         }
     }
 }
