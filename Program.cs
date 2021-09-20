@@ -37,7 +37,7 @@ namespace IntroApplication
 
             // Working with string in C#
             string phrase = "Giraffe Academy";
-            Console.WriteLine(phrase);
+            Console.WriteLine(phrase.Length);
         }
     }
 }
