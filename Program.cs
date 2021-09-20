@@ -24,13 +24,19 @@ namespace IntroApplication
 
 
             // Working with data types in C#
-            string phrase = "C# is new to me";
-            char grade = 'A';
+            // string phrase = "C# is new to me";
+            // char grade = 'A';
 
-            int myNumber = 9;
-            double gpa = 3.9;
+            // int myNumber = 9;
+            // double gpa = 3.9;
 
-            bool isMale = true;
+            // bool isMale = true;
+
+            Console.WriteLine("Giraffe\nAcademy");
+
+
+            // Working with string in C#
+
         }
     }
 }
