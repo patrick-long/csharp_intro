@@ -38,6 +38,7 @@ namespace IntroApplication
             // Working with string in C#
             string phrase = "Giraffe Academy";
             Console.WriteLine(phrase.ToUpper());
+            Console.WriteLine(phrase.ToLower());
         }
     }
 }
