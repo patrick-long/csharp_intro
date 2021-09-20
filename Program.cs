@@ -40,6 +40,7 @@ namespace IntroApplication
             Console.WriteLine(phrase.ToUpper());
             Console.WriteLine(phrase.ToLower());
             Console.WriteLine(phrase.Contains("Giraffe"));
+            Console.WriteLine(phrase.Substring(8, 7));
         }
     }
 }
