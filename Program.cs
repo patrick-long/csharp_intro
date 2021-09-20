@@ -39,6 +39,7 @@ namespace IntroApplication
             string phrase = "Giraffe Academy";
             Console.WriteLine(phrase.ToUpper());
             Console.WriteLine(phrase.ToLower());
+            Console.WriteLine(phrase.Contains("Giraffe"));
         }
     }
 }
