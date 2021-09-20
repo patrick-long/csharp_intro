@@ -32,11 +32,12 @@ namespace IntroApplication
 
             // bool isMale = true;
 
-            Console.WriteLine("Giraffe\nAcademy");
+            // Console.WriteLine("Giraffe\nAcademy");
 
 
             // Working with string in C#
-
+            string phrase = "Giraffe Academy";
+            Console.WriteLine(phrase);
         }
     }
 }
