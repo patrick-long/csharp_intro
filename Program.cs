@@ -45,6 +45,8 @@ namespace IntroApplication
             // Working with numbers in C#
             Console.WriteLine(50);
             Console.WriteLine(5+8);
+            Console.WriteLine(5 / 2);
+            Console.WriteLine(5 / 2.0); 
         }
     }
 }
