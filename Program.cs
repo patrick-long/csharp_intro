@@ -43,10 +43,16 @@ namespace IntroApplication
             // Console.WriteLine(phrase.Substring(8, 7));
 
             // Working with numbers in C#
-            Console.WriteLine(50);
-            Console.WriteLine(5+8);
-            Console.WriteLine(5 / 2);
-            Console.WriteLine(5 / 2.0); 
+            // Console.WriteLine(50);
+            // Console.WriteLine(5+8);
+            // Console.WriteLine(5 / 2);
+            // Console.WriteLine(5 / 2.0); 
+
+
+            // Work with user input in C#
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello {name}");
         }
     }
 }
