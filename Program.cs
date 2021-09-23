@@ -55,6 +55,8 @@ namespace IntroApplication
             Console.Write("Enter your age: ");
             string age = Console.ReadLine();
             Console.WriteLine($"Hello {name}, you are {age} years old.");
+
+            int num = Convert.ToInt32("48");
         }
     }
 }
