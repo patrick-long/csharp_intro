@@ -68,7 +68,7 @@ namespace IntroApplication
         // Start creating methods in C#
         static void SayHello()
         {
-
+            Console.WriteLine("Hello user");
         }
     }
 }
