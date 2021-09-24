@@ -60,6 +60,9 @@ namespace IntroApplication
 
             // Working with arrays in C#
             int [] luckyNumbers = {2, 3, 4, 9};
+            string[] friends = new string[5];
+            friends[0] = "Patrick";
+            friends[1] = "Abigayle";
         }
     }
 }
