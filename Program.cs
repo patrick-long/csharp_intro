@@ -50,13 +50,16 @@ namespace IntroApplication
 
 
             // Work with user input in C#
-            Console.Write("Enter your name: ");
-            string name = Console.ReadLine();
-            Console.Write("Enter your age: ");
-            string age = Console.ReadLine();
-            Console.WriteLine($"Hello {name}, you are {age} years old.");
+            // Console.Write("Enter your name: ");
+            // string name = Console.ReadLine();
+            // Console.Write("Enter your age: ");
+            // string age = Console.ReadLine();
+            // Console.WriteLine($"Hello {name}, you are {age} years old.");
 
-            int num = Convert.ToInt32("48");
+            // int num = Convert.ToInt32("48");
+
+            // Working with arrays in C#
+            int [] luckyNumbers = {2, 3, 4, 9};
         }
     }
 }
