@@ -59,10 +59,16 @@ namespace IntroApplication
             // int num = Convert.ToInt32("48");
 
             // Working with arrays in C#
-            int [] luckyNumbers = {2, 3, 4, 9};
-            string[] friends = new string[5];
-            friends[0] = "Patrick";
-            friends[1] = "Abigayle";
+            // int [] luckyNumbers = {2, 3, 4, 9};
+            // string[] friends = new string[5];
+            // friends[0] = "Patrick";
+            // friends[1] = "Abigayle";
+        }
+
+        // Start creating methods in C#
+        static void SayHello()
+        {
+
         }
     }
 }
