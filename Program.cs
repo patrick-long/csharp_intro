@@ -63,6 +63,8 @@ namespace IntroApplication
             // string[] friends = new string[5];
             // friends[0] = "Patrick";
             // friends[1] = "Abigayle";
+
+            SayHello();
         }
 
         // Start creating methods in C#
