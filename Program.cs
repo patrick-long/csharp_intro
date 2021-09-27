@@ -69,14 +69,24 @@ namespace IntroApplication
             // Console.WriteLine(cubeNumber(3));
             
             // Start working with if statements in C#
-            bool isMale = false;
-            if (isMale) 
-            {
-                Console.WriteLine("You are male");
-            } else 
-            {
-                Console.WriteLine("You are not male");
-            }
+            // bool isMale = false;
+            // if (isMale) 
+            // {
+            //     Console.WriteLine("You are male");
+            // } else 
+            // {
+            //     Console.WriteLine("You are not male");
+            // }
+
+            // Creating a better calculator with C#
+            Console.Write("Enter a number: ");
+            double number1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter an operator: ");
+            string op = Console.ReadLine();
+
+            Console.Write("Enter another number:" );
+            double number2 = Convert.ToDouble(Console.ReadLine());
         }
 
         // Start creating methods in C#
