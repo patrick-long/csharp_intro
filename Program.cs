@@ -64,13 +64,13 @@ namespace IntroApplication
             // friends[0] = "Patrick";
             // friends[1] = "Abigayle";
 
-            SayHello();
+            SayHello("Patrick");
         }
 
         // Start creating methods in C#
-        static void SayHello()
+        static void SayHello(string name)
         {
-            Console.WriteLine("Hello user");
+            Console.WriteLine($"Hello {name}");
         }
     }
 }
