@@ -69,10 +69,13 @@ namespace IntroApplication
             // Console.WriteLine(cubeNumber(3));
             
             // Start working with if statements in C#
-            bool isMale = true;
+            bool isMale = false;
             if (isMale) 
             {
                 Console.WriteLine("You are male");
+            } else 
+            {
+                Console.WriteLine("You are not male");
             }
         }
 
