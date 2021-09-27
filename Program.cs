@@ -64,13 +64,21 @@ namespace IntroApplication
             // friends[0] = "Patrick";
             // friends[1] = "Abigayle";
 
-            SayHello("Patrick", 23);
+            // SayHello("Patrick", 23);
+
+            Console.WriteLine(cubeNumber(3));
         }
 
         // Start creating methods in C#
-        static void SayHello(string name, int age)
+        // static void SayHello(string name, int age)
+        // {
+        //     Console.WriteLine($"Hello {name}, you are {age}");
+        // }
+
+        // Start working with return statements in C# methods
+        static void cubeNumber(int num)
         {
-            Console.WriteLine($"Hello {name}, you are {age}");
+            return num*num*num;
         }
     }
 }
