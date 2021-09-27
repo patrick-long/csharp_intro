@@ -66,7 +66,14 @@ namespace IntroApplication
 
             // SayHello("Patrick", 23);
 
-            Console.WriteLine(cubeNumber(3));
+            // Console.WriteLine(cubeNumber(3));
+            
+            // Start working with if statements in C#
+            bool isMale = true;
+            if (isMale) 
+            {
+                Console.WriteLine("You are male");
+            }
         }
 
         // Start creating methods in C#
@@ -76,9 +83,11 @@ namespace IntroApplication
         // }
 
         // Start working with return statements in C# methods
-        static void cubeNumber(int num)
-        {
-            return num*num*num;
-        }
+        // static void cubeNumber(int num)
+        // {
+        //     return num*num*num;
+        // }
+
+
     }
 }
