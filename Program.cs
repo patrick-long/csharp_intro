@@ -147,6 +147,9 @@ namespace IntroApplication
                 case 6:
                     dayName = "Saturday";
                     break;
+                default:
+                    dayName = "Invalid day number";
+                    break;
             }
         }
     }
