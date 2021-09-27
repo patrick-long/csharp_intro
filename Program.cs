@@ -87,6 +87,20 @@ namespace IntroApplication
 
             Console.Write("Enter another number:" );
             double number2 = Convert.ToDouble(Console.ReadLine());
+
+            if (op == "+") 
+            {
+                return number1 + number2;
+            } else if (op == "-") 
+            {
+                return number1 - number2;
+            } else if (op == "*")
+            {
+                return number1 * number2;
+            } else if (op == "/") 
+            {
+                return number1 / number2;
+            }
         }
 
         // Start creating methods in C#
