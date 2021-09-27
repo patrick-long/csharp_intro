@@ -79,31 +79,31 @@ namespace IntroApplication
             // }
 
             // Creating a better calculator with C#
-            Console.Write("Enter a number: ");
-            double number1 = Convert.ToDouble(Console.ReadLine());
+            // Console.Write("Enter a number: ");
+            // double number1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Enter an operator: ");
-            string op = Console.ReadLine();
+            // Console.Write("Enter an operator: ");
+            // string op = Console.ReadLine();
 
-            Console.Write("Enter another number:" );
-            double number2 = Convert.ToDouble(Console.ReadLine());
+            // Console.Write("Enter another number:" );
+            // double number2 = Convert.ToDouble(Console.ReadLine());
 
-            if (op == "+") 
-            {
-                Console.WriteLine(number1 + number2);
-            } else if (op == "-") 
-            {
-                Console.WriteLine(number1 - number2);
-            } else if (op == "*")
-            {
-                Console.WriteLine(number1 * number2);
-            } else if (op == "/") 
-            {
-                Console.WriteLine(number1 / number2);
-            } else 
-            {
-                Console.WriteLine("Invalid operator");
-            }
+            // if (op == "+") 
+            // {
+            //     Console.WriteLine(number1 + number2);
+            // } else if (op == "-") 
+            // {
+            //     Console.WriteLine(number1 - number2);
+            // } else if (op == "*")
+            // {
+            //     Console.WriteLine(number1 * number2);
+            // } else if (op == "/") 
+            // {
+            //     Console.WriteLine(number1 / number2);
+            // } else 
+            // {
+            //     Console.WriteLine("Invalid operator");
+            // }
         }
 
         // Start creating methods in C#
@@ -119,5 +119,35 @@ namespace IntroApplication
         // }
 
 
+        // Work with switch statements in C#
+        static string GetDay(int dayNum)
+        {
+            string dayName;
+
+            switch (dayNum)
+            {
+                case 0:
+                    dayName = "Sunday";
+                    break;
+                case 1:
+                    dayName = "Monday";
+                    break;
+                case 2:
+                    dayName = "Tuesday";
+                    break;
+                case 3:
+                    dayName = "Wednesday";
+                    break;
+                case 4:
+                    dayName = "Thursday";
+                    break;
+                case 5:
+                    dayName = "Friday";
+                    break;
+                case 6:
+                    dayName = "Saturday";
+                    break;
+            }
+        }
     }
 }
