@@ -90,16 +90,19 @@ namespace IntroApplication
 
             if (op == "+") 
             {
-                return number1 + number2;
+                Console.WriteLine(number1 + number2);
             } else if (op == "-") 
             {
-                return number1 - number2;
+                Console.WriteLine(number1 - number2);
             } else if (op == "*")
             {
-                return number1 * number2;
+                Console.WriteLine(number1 * number2);
             } else if (op == "/") 
             {
-                return number1 / number2;
+                Console.WriteLine(number1 / number2);
+            } else 
+            {
+                Console.WriteLine("Invalid operator");
             }
         }
 
