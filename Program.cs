@@ -158,6 +158,11 @@ namespace IntroApplication
             //     {5, 6}
             // };
 
+            Book book1 = new Book();
+            book1.title = "Harry Potter";
+            book1.author = "JK Rowling";
+            book1.pages = 400;
+
         }
 
         // Start creating methods in C#
