@@ -150,6 +150,14 @@ namespace IntroApplication
 
             // Console.WriteLine(GetPow());
 
+
+            // Work with two-dimensional arrays in C#
+            int [,] numberGrid = {
+                {1, 2},
+                {3, 4},
+                {5, 6}
+            };
+
         }
 
         // Start creating methods in C#
@@ -199,15 +207,15 @@ namespace IntroApplication
         //     }
         // }
 
-        static int GetPow (int baseNum, int powNum) 
-        {
-            int result = 1;
-            for (int i = 0; i < powNum; i++)
-            {
-                result *= baseNum;
-            }
+        // static int GetPow (int baseNum, int powNum) 
+        // {
+        //     int result = 1;
+        //     for (int i = 0; i < powNum; i++)
+        //     {
+        //         result *= baseNum;
+        //     }
 
-            return result;
-        }
+        //     return result;
+        // }
     }
 }
