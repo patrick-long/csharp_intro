@@ -148,7 +148,7 @@ namespace IntroApplication
             //     Console.WriteLine(luckyNumbers[i]);
             // }
 
-            Console.WriteLine(GetPow());
+            // Console.WriteLine(GetPow());
 
         }
 
@@ -201,7 +201,7 @@ namespace IntroApplication
 
         static int GetPow (int baseNum, int powNum) 
         {
-            int result;
+            int result = 1;
             for (int i = 0; i < powNum; i++)
             {
                 result *= baseNum;
