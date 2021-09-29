@@ -229,16 +229,29 @@ namespace IntroApplication
         public string title;
         public string author;
         public int pages;
+        public bool award;
 
         public Book() {
-            
+
         }
 
-        public Book(string aTitle, string aAuthor, int aPages)
+        public Book(string aTitle, string aAuthor, int aPages, bool aAward)
         {
             title = aTitle;
             author = aAuthor;
             pages = aPages;
+            award = aAward;
+        }
+
+        public bool AwardWinning() 
+        {
+            if (award)
+            {
+                return true;
+            } else 
+            {
+                return false;
+            }
         }
     }
 }
