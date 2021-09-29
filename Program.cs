@@ -152,11 +152,11 @@ namespace IntroApplication
 
 
             // Work with two-dimensional arrays in C#
-            int [,] numberGrid = {
-                {1, 2},
-                {3, 4},
-                {5, 6}
-            };
+            // int [,] numberGrid = {
+            //     {1, 2},
+            //     {3, 4},
+            //     {5, 6}
+            // };
 
         }
 
@@ -217,5 +217,13 @@ namespace IntroApplication
 
         //     return result;
         // }
+    }
+
+    // Start working with classes in C#
+    class Book
+    {
+        public string title;
+        public string author;
+        public int pages;
     }
 }
