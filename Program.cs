@@ -133,8 +133,14 @@ namespace IntroApplication
                     outOfGuesses = true;
                 }
             }
+            if (outOfGuesses) 
+            {
+                Console.Write("You lose.");
+            } else 
+            {
+                Console.Write("You got it!");
+            }
 
-            Console.Write("You got it!");
         }
 
         // Start creating methods in C#
