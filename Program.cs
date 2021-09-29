@@ -142,9 +142,10 @@ namespace IntroApplication
             // }
 
             // Writing for loops in C#
-            for (int i = 0; i < 5; i++)
+            int [] luckyNumbers = {2, 3, 4, 9};
+            for (int i = 0; i < luckyNumbers.Length; i++)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(luckyNumbers[i]);
             }
 
         }
