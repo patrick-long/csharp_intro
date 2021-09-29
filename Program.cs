@@ -158,10 +158,7 @@ namespace IntroApplication
             //     {5, 6}
             // };
 
-            Book book1 = new Book();
-            book1.title = "Harry Potter";
-            book1.author = "JK Rowling";
-            book1.pages = 400;
+            Book book1 = new Book("Harry Potter", "JK Rowling", 400);
 
         }
 
@@ -230,5 +227,12 @@ namespace IntroApplication
         public string title;
         public string author;
         public int pages;
+
+        public Book(string aTitle, string aAuthor, int aPages)
+        {
+            title = aTitle;
+            author = aAuthor;
+            pages = aPages;
+        }
     }
 }
