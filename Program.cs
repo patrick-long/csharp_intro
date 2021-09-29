@@ -115,30 +115,36 @@ namespace IntroApplication
             // }
 
             // Building a guessing game in C#
-            string secretWord = "Giraffe";
-            string guess = "";
-            int guessCount = 0;
-            int guessLimit = 3;
-            bool outOfGuesses = false;
+            // string secretWord = "Giraffe";
+            // string guess = "";
+            // int guessCount = 0;
+            // int guessLimit = 3;
+            // bool outOfGuesses = false;
 
-            while (guess != secretWord && outOfGuesses == false) 
+            // while (guess != secretWord && outOfGuesses == false) 
+            // {
+            //     if (guessCount < guessLimit) 
+            //     {
+            //         Console.Write("Enter guess: ");
+            //         guess = Console.ReadLine();
+            //         guessCount++;
+            //     } else 
+            //     {
+            //         outOfGuesses = true;
+            //     }
+            // }
+            // if (outOfGuesses) 
+            // {
+            //     Console.Write("You lose.");
+            // } else 
+            // {
+            //     Console.Write("You got it!");
+            // }
+
+            // Writing for loops in C#
+            for (int i = 0; i < 5; i++)
             {
-                if (guessCount < guessLimit) 
-                {
-                    Console.Write("Enter guess: ");
-                    guess = Console.ReadLine();
-                    guessCount++;
-                } else 
-                {
-                    outOfGuesses = true;
-                }
-            }
-            if (outOfGuesses) 
-            {
-                Console.Write("You lose.");
-            } else 
-            {
-                Console.Write("You got it!");
+                Console.WriteLine(i);
             }
 
         }
