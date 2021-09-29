@@ -106,13 +106,25 @@ namespace IntroApplication
             // }
 
             // Start working with while loops in C#
-            int index = 1;
+            // int index = 1;
 
-            while (index <= 5) 
+            // while (index <= 5) 
+            // {
+            //     Console.WriteLine(index);
+            //     index++;
+            // }
+
+            // Building a guessing game in C#
+            string secretWord = "Giraffe";
+            string guess = "";
+
+            while (guess != secretWord) 
             {
-                Console.WriteLine(index);
-                index++;
+                Console.Write("Enter guess: ");
+                guess = Console.ReadLine();
             }
+
+            Console.Write("You got it!");
         }
 
         // Start creating methods in C#
