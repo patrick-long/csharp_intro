@@ -159,6 +159,8 @@ namespace IntroApplication
             // };
 
             Book book1 = new Book("Harry Potter", "JK Rowling", 400);
+            Book book2 = new Book("Lord of the Rings", "JRR Tolkien", 700);
+            Book book3 = new Book();
 
         }
 
@@ -227,6 +229,10 @@ namespace IntroApplication
         public string title;
         public string author;
         public int pages;
+
+        public Book() {
+            
+        }
 
         public Book(string aTitle, string aAuthor, int aPages)
         {
