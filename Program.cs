@@ -142,11 +142,13 @@ namespace IntroApplication
             // }
 
             // Writing for loops in C#
-            int [] luckyNumbers = {2, 3, 4, 9};
-            for (int i = 0; i < luckyNumbers.Length; i++)
-            {
-                Console.WriteLine(luckyNumbers[i]);
-            }
+            // int [] luckyNumbers = {2, 3, 4, 9};
+            // for (int i = 0; i < luckyNumbers.Length; i++)
+            // {
+            //     Console.WriteLine(luckyNumbers[i]);
+            // }
+
+            Console.WriteLine(GetPow());
 
         }
 
@@ -196,5 +198,16 @@ namespace IntroApplication
         //             break;
         //     }
         // }
+
+        static int GetPow (int baseNum, int powNum) 
+        {
+            int result;
+            for (int i = 0; i < powNum; i++)
+            {
+                result *= baseNum;
+            }
+
+            return result;
+        }
     }
 }
