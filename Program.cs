@@ -329,5 +329,10 @@ namespace IntroApplication
         {
             Console.WriteLine("The Italian Chef makes pasta");
         }
+
+        public void specialDish()
+        {
+            Console.WriteLine("The Italian Chef makes spaghetti bolognese");
+        }
     }
 }
