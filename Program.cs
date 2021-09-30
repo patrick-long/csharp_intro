@@ -322,4 +322,12 @@ namespace IntroApplication
             Console.WriteLine("The Chef makes barbecue ribs");
         }
     }
+
+    class ItalianChef : Chef
+    {
+        public void makePasta()
+        {
+            Console.WriteLine("The Italian Chef makes pasta");
+        }
+    }
 }
