@@ -322,7 +322,7 @@ namespace IntroApplication
         {
             Console.WriteLine("The Chef makes salad");
         }
-        public void specialDish() 
+        public virtual void specialDish() 
         {
             Console.WriteLine("The Chef makes barbecue ribs");
         }
@@ -335,7 +335,7 @@ namespace IntroApplication
             Console.WriteLine("The Italian Chef makes pasta");
         }
 
-        public void specialDish()
+        public override void specialDish()
         {
             Console.WriteLine("The Italian Chef makes spaghetti bolognese");
         }
