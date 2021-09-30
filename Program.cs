@@ -293,7 +293,7 @@ namespace IntroApplication
     // }
 
     // Start working with static class methods
-    class UsefulTools 
+    static class UsefulTools 
     {
         public static void SayHi(string name)
         {
