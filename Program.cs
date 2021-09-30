@@ -164,6 +164,11 @@ namespace IntroApplication
 
             Chef myChef = new Chef();
             myChef.makeChicken();
+            myChef.specialDish();
+
+            ItalianChef myItalianChef = new ItalianChef();
+            myItalianChef.makePasta();
+            myItalianChef.specialDish();
 
         }
 
