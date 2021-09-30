@@ -276,19 +276,28 @@ namespace IntroApplication
         // }
     // }
 
-    class Song 
-    {
-        public string title;
-        public string artist;
-        public int duration;
-        public static int songCount = 0;
+    // class Song 
+    // {
+    //     public string title;
+    //     public string artist;
+    //     public int duration;
+    //     public static int songCount = 0;
 
-        public Song(string aTitle, string aArtist, int aDuration) 
+    //     public Song(string aTitle, string aArtist, int aDuration) 
+    //     {
+    //         title = aTitle;
+    //         artist = aArtist;
+    //         duration = aDuration;
+    //         songCount++;
+    //     }
+    // }
+
+    // Start working with static class methods
+    class UsefulTools 
+    {
+        public static void SayHi(string name)
         {
-            title = aTitle;
-            artist = aArtist;
-            duration = aDuration;
-            songCount++;
+            Console.WriteLine($"Hello {name}");
         }
     }
 }
