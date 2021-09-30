@@ -221,55 +221,72 @@ namespace IntroApplication
 
         //     return result;
         // }
+
+        Song holiday = new Song("Holiday", "Green Day", 200);
+        Song kashmere = new Song("Kashmere", "Led Zeppelin", 150);
     }
 
     // Start working with classes in C#
-    class Book
-    {
-        public string title;
-        public string author;
+    // class Book
+    // {
+    //     public string title;
+    //     public string author;
 
         // Start working with getter and setter properties
-        private int pages;
-        public bool award;
+        // private int pages;
+        // public bool award;
 
-        public Book() {
+        // public Book() {
 
-        }
+        // }
 
-        public Book(string aTitle, string aAuthor, int aPages, bool aAward)
+        // public Book(string aTitle, string aAuthor, int aPages, bool aAward)
+        // {
+        //     title = aTitle;
+        //     author = aAuthor;
+        //     pages = aPages;
+        //     award = aAward;
+        // }
+
+        // public bool AwardWinning() 
+        // {
+        //     if (award)
+        //     {
+        //         return true;
+        //     }
+        //     return false;
+        // }
+
+        // public string Pages
+        // {
+        //     get 
+        //     {
+        //         return pages;
+        //     }
+        //     set
+        //     {
+        //         if (value < 1000)
+        //         {
+        //             pages = value;
+        //         } else 
+        //         {
+        //             pages = 0;
+        //         }
+        //     }
+        // }
+    // }
+
+    class Song 
+    {
+        public string title;
+        public string artist;
+        public int duration;
+
+        public Song(string aTitle, string aArtist, int aDuration) 
         {
             title = aTitle;
-            author = aAuthor;
-            pages = aPages;
-            award = aAward;
-        }
-
-        public bool AwardWinning() 
-        {
-            if (award)
-            {
-                return true;
-            }
-            return false;
-        }
-
-        public string Pages
-        {
-            get 
-            {
-                return pages;
-            }
-            set
-            {
-                if (value < 1000)
-                {
-                    pages = value;
-                } else 
-                {
-                    pages = 0;
-                }
-            }
+            artist = aArtist;
+            duration = aDuration;
         }
     }
 }
