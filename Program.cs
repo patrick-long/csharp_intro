@@ -158,9 +158,12 @@ namespace IntroApplication
             //     {5, 6}
             // };
 
-            Book book1 = new Book("Harry Potter", "JK Rowling", 400);
-            Book book2 = new Book("Lord of the Rings", "JRR Tolkien", 700);
-            Book book3 = new Book();
+            // Book book1 = new Book("Harry Potter", "JK Rowling", 400);
+            // Book book2 = new Book("Lord of the Rings", "JRR Tolkien", 700);
+            // Book book3 = new Book();
+
+            Chef myChef = new Chef();
+            myChef.makeChicken();
 
         }
 
@@ -222,8 +225,8 @@ namespace IntroApplication
         //     return result;
         // }
 
-        Song holiday = new Song("Holiday", "Green Day", 200);
-        Song kashmere = new Song("Kashmere", "Led Zeppelin", 150);
+        // Song holiday = new Song("Holiday", "Green Day", 200);
+        // Song kashmere = new Song("Kashmere", "Led Zeppelin", 150);
     }
 
     // Start working with classes in C#
