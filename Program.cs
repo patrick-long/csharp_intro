@@ -288,6 +288,7 @@ namespace IntroApplication
             title = aTitle;
             artist = aArtist;
             duration = aDuration;
+            songCount++;
         }
     }
 }
