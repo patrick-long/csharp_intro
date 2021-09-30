@@ -293,11 +293,30 @@ namespace IntroApplication
     // }
 
     // Start working with static class methods
-    static class UsefulTools 
+    // static class UsefulTools 
+    // {
+    //     public static void SayHi(string name)
+    //     {
+    //         Console.WriteLine($"Hello {name}");
+    //     }
+    // }
+
+    // Start working with inheritance in C#
+
+
+    class Chef 
     {
-        public static void SayHi(string name)
+        public void makeChicken() 
         {
-            Console.WriteLine($"Hello {name}");
+            Console.WriteLine("The Chef makes chicken");
+        }
+        public void makeSalad() 
+        {
+            Console.WriteLine("The Chef makes salad");
+        }
+        public void specialDish() 
+        {
+            Console.WriteLine("The Chef makes barbecue ribs");
         }
     }
 }
