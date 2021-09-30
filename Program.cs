@@ -228,7 +228,9 @@ namespace IntroApplication
     {
         public string title;
         public string author;
-        public int pages;
+
+        // Start working with getter and setter properties
+        private int pages;
         public bool award;
 
         public Book() {
@@ -248,9 +250,25 @@ namespace IntroApplication
             if (award)
             {
                 return true;
-            } else 
+            }
+            return false;
+        }
+
+        public string Pages
+        {
+            get 
             {
-                return false;
+                return pages;
+            }
+            set
+            {
+                if (value < 1000)
+                {
+                    pages = value;
+                } else 
+                {
+                    pages = 0;
+                }
             }
         }
     }
